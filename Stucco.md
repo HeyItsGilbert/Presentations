@@ -24,6 +24,15 @@ Creating an open source module in minutes!
 
 ---
 
+# Follow Along or
+
+# Jump Ahead
+
+You can see the slides: [Slides](https://heyitsgilbert.github.io/Presentations/StuccoSlides.html)
+Or look at the full thing: [Doc](https://heyitsgilbert.github.io/Presentations/Stucco.html)
+
+---
+
 # Quick Intro
 
 - Gilbert Sanchez
