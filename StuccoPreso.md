@@ -70,7 +70,7 @@ Install-Module Pester -RequiredVersion 5.3.3 -SkipPublisherCheck
 
 # Configure Your Github Repository
 
-![Create a New Github Repo](images/NewRepo.png)
+![Create a New Github Repo](img/NewRepo.png)
 
 ---
 
