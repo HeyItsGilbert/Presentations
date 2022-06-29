@@ -20,13 +20,16 @@ jobs:
       - name: Copy images
         run: mkdir build && cp -R img build/img
 
-      - name: Copy readme
-        run: cp README.md build/
+      - name: Copy Markdown files
+        run: cp *.md build/
+      
+      - name: Make Preso folder
+        run: mkdir build/preso
 
       - name: Marp Build (Stucco)
         uses: docker://marpteam/marp-cli:v1.7.0
         with:
-          args: StuccoPreso.md -o build/Stucco.html
+          args: StuccoPreso.md -o build/preso/Stucco.html
         env:
           MARP_USER: root:root
 
