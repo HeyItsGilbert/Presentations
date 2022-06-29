@@ -27,17 +27,10 @@ jobs:
         env:
           MARP_USER: root:root
 
-      - name: Marp Build (README.pdf)
+       - name: Marp Build (Stucco)
         uses: docker://marpteam/marp-cli:v1.7.0
         with:
-          args: README.md -o build/README.pdf
-        env:
-          MARP_USER: root:root
-
-      - name: Marp Build (README.pptx)
-        uses: docker://marpteam/marp-cli:v1.7.0
-        with:
-          args: README.md -o build/README.pptx
+          args: StuccoPreso.md -o build/Stucco.html
         env:
           MARP_USER: root:root
 
