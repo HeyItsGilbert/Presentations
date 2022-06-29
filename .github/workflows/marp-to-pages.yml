@@ -27,7 +27,7 @@ jobs:
         env:
           MARP_USER: root:root
 
-       - name: Marp Build (Stucco)
+      - name: Marp Build (Stucco)
         uses: docker://marpteam/marp-cli:v1.7.0
         with:
           args: StuccoPreso.md -o build/Stucco.html
