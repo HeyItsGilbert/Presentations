@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: uncover   
+theme: uncover
 class:
   - invert
 ---
@@ -180,3 +180,15 @@ At this point your code should be ready to publish.
 3. Use `EnricoMi/publish-unit-test-result-action@v1`
 
 See [CI.yaml](https://github.com/HeyItsGilbert/RPGDice/blob/main/.github/workflows/CI.yaml)
+
+---
+
+# Thank you!
+
+
+<br>
+<br>
+<br>
+<br>
+
+Cover Photo by [Avel Chuklanov](https://unsplash.com/@chuklanov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/IB0VA6VdqBw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
